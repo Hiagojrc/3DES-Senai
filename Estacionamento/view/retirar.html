@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Estacionamento</title>
+    <link rel="stylesheet" href="retirar.css">  
+</head>
+<body onload="carregaServicos()">
+    <table>
+        <thead>
+            <tr>
+                <th colspan="8">Veiculos Estacionados no Car Park Plaza</th>
+            </tr>
+            <tr>
+                <th>Id</th>
+                <th>Tipo</th>
+                <th>Placa</th>
+                <th>Data de Registro</th>
+                <th>Entrada</th>
+                <th>Saída</th>
+                <th>Valor</th>
+                <th>Ações</th>
+
+            </tr>
+        </thead>
+        <tbody id="servicos"></tbody>
+        </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+            <tr>
+                <form>
+                    <td><input class="form-control" id="id" type="text" placeholder="ID" disabled="" style="width:50px"></td>
+                    <td>
+                        <select id="tipo">
+                            <option value="carro">Carro</option>
+                            <option value="moto">Moto</option>
+                        </select>
+                    </td>
+                    <td><input type="text" placeholder="placa" id="placa"></td>
+                    <td><input type="date" placeholder="Data" id="data_de_registro"></td>
+                    <td><input type="time" placeholder="Entrada" id="entrada"></td>
+                    <td><input type="time" placeholder="Saída" id="saida"></td>
+                    <td>
+                    <select id="valor">
+                        <option value="carro">Carro R$10.00</option>
+                        <option value="moto">Moto R$3.00</option>
+                    </select>
+                    </td>
+                   
+                    <!------------------------BOTÃO CRIAR VEÍCULOS------------------>
+                    <td><input type="button" value="Criar" onclick="criaServicos()"></td>
+
+                </form>
+            </tr>
+    </table>
+        <div class="msg">
+            <p id="mensagem"></p>
+        </div>
+   
+</body>
+
+<script src="retirar.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--<div>
+        <input type="text" id="licence" placeholder="Tipo" autocomplete="off">
+        <input type="text" id="licence" placeholder="Placa do veículo" autocomplete="off">
+        <input type="number" id="licence" placeholder="Entrada" autocomplete="off">
+        <input type="number" id="licence" placeholder="Saída" autocomplete="off">
+        <input type="number" id="licence" placeholder="Valor" autocomplete="off">
+        <input type="date" id="licence" placeholder="Data" autocomplete="off">
+        <button id="send" class="success">Registrar</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Id_Veiculo</th>
+                <th>Tipo</th>
+                <th>Placa</th>
+                <th>Entrada</th>
+                <th>Saída</th>
+                <th>Valor</th>
+                <th>Saída</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="garage"></tbody>
+    </table>-->

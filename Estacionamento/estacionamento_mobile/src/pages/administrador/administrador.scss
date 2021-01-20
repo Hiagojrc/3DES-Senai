@@ -1,0 +1,25 @@
+page-administrador {
+    .bak {
+        background: #fffbd5;
+        background: -webkit-linear-gradient(to right, #fffbd5, #b20a2c); 
+        background: linear-gradient(to right, #fffbd5, #b20a2c);
+    }
+    .cor {
+        background: #fffbd5;
+        background: -webkit-linear-gradient(to right, #fffbd5, #b20a2c); 
+        background: linear-gradient(to right, #fffbd5, #b20a2c);
+        color:  #710680;
+        font-size: 2em;
+        font-family: Blippo, fantasy;
+        right: 100%;
+    }
+    h1 {
+        font-family: Blippo, fantasy;
+        font-size: 1.4em;
+        color:  #8a046d;
+        float: left;
+    }  
+    p {
+        text-align: center;
+    }
+}

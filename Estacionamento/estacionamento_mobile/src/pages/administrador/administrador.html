@@ -1,0 +1,35 @@
+<!--
+  Generated template for the AdministradorPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Administrador</ion-title>
+  </ion-navbar>
+
+</ion-header>
+<ion-content class="bak" padding>
+  <ion-list>
+    <ion-item class="bak" ion-item *ngFor="let ess of esss">
+            <h1>ID_ES: </h1>
+            <p class="cor">{{ess.id_servico}}</p>
+            <h3>TIPO: </h3>
+            <p class="cor">{{ess.tipo}}</p>
+            <h3>:PLACA </h3>
+            <p class="cor">{{ess.placa}}</p>
+            <h3>DATA_DE_REGISTRO: </h3>
+            <p class="cor">{{ess.data_de_registro}}</p>
+            <h3>ENTRADA: </h3>
+            <p class="cor">{{ess.entrada}}</p>
+            <h3>SAIDA: </h3>
+            <p class="cor">{{ess.saida}}</p>
+            <h3>VALOR_TOTAL:</h3>
+            <p class="cor">{{ess.valor}}</p>
+    </ion-item>
+  </ion-list>
+  Valor total da soma:
+  {{valorTotal}}
+</ion-content>
