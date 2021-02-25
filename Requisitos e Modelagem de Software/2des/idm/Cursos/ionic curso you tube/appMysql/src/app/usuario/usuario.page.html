@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Usuario</ion-title>
+    <!--Ações para os buttons-->
+    <ion-buttons slot="primary" (click)="addUsuario()">
+      <ion-button color="primary">Novo
+        <ion-icon slot="end" name="add"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="opcao">
+    <IonToolbar>
+      <IonSegment value="Gastos">
+        <IonSegmentButton value="Gastos">
+          Gastos
+        </IonSegmentButton>
+        <IonSegmentButton value="Supermecado">Supermecado</IonSegmentButton>
+      </IonSegment>
+    </IonToolbar>
+  </div>
+</ion-content>

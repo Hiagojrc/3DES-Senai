@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="tap.css" />
+    <title>Tap</title>
+</head>
+
+<body>
+    <p>Tap (Termo de Abertura do Projeto)</p>
+    <div class="ag">
+        <form>
+            <label>Descrição Objetivo: </label>&nbsp;
+            <input type="text" placeholder="Descrição Objetivo" id="objetivo" /> <br /> <br />
+            <label>Recursos Humanos: </label>
+            <input type="text" placeholder="Recursos Humanos" id="rh" /> <br /> <br />
+            <label>Patrocinadores: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Patrocinadores" id="patrocina" /> <br /> <br />
+            <label>Gerente do Projeto: </label>&nbsp;
+            <input type="text" placeholder="Gerente do Projeto" id="gerente" /> <br /> <br />
+            <label>Cliente:
+            </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Cliente" id="cliente" /> <br /> <br />
+            <label>Data de entrega do projeto:
+            </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="date" id="data" /> <br /> <br />
+            <button onclick="gerarTap()"></button>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.debug.js"
+        integrity="sha384-THVO/sM0mFD9h7dfSndI6TS0PgAGavwKvB5hAxRRvc0o9cPLohB0wb/PTA7LdUHs"
+        crossorigin="anonymous"></script>
+    <script src="tap.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+body {
+    margin: auto;
+}
+h1 {
+    margin: 30px 500px;
+}
+.tableForm {
+    margin: 0 350px;
+}
+.leArquivo {
+    margin: 0 350px;
+    padding: 50px;
+}
+.tableResult {
+    margin: 0 350px;
+}
+.tam {
+    width: 50px;
+    height: 25px;
+    text-align: center;
+}
+.tamtext {
+    width: 350px;
+    height: 25px;
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(212, 224, 220);
+}
+h1 {
+    color:rgb(69, 69, 250);
+    font-family: sans-serif;
+    text-align: center;
+}
+h2 {
+    color:rgb(8, 134, 156);
+    font-family: sans-serif;
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+input[type="text"] {
+    border-radius: 9px;
+    height: 24px;
+}
+input[type="number"] {
+    height: 24px;
+    border-radius: 9px;
+}
+input[type="button"] {
+    height: 24px;
+    border-radius: 9px;
+    background-color: blue;
+    color:rgb(212, 224, 220);
+    font-size: 1em;
+    font-family: sans-serif;
+}

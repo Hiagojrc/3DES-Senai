@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/perfiladm.css" />
+    <title>Perfil Adm</title>
+</head>
+
+<body onload="carregaPessoas(),carregaUsuarios(),carregaPerfil()">
+    <div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">Gerenciar Pessoas</th>
+                </tr>
+                <tr>
+                    <th>Id</th>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="bodyPessoas">
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Auto</td>
+                    <td><input type="text" placeholder="Name" id="nomePessoa"></td>
+                    <td><input type="text" placeholder="Telephone" id="telPessoa"></td>
+                    <td><button class="seta" onclick="criaPessoa()"><i class="fa fa-arrow-right"
+                                aria-hidden="true"></i></button>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <div class="login-box">
+        <h1>Perfil Adm</h1>
+        <div class="textbox">
+            <i class="fa fa-street-view"></i>
+            <input type="text" id="nome" required maxlength="20" autofocus>
+        </div>
+
+        <div class="mm">
+            <p><i class="fa fa-plus" onclick="addTelefone()"></i></p>
+            <p><i class="fa fa-minus" onclick="delTelefone()"></i></p>
+        </div>
+        <div id="telefones">
+
+        </div>
+
+        <div class="textbox">
+            <i class="fa fa-envelope-o"></i>
+            <input type="text" id="login" required maxlength="20">
+        </div>
+
+        <div class="textbox">
+            <i class="fa fa-key"></i>
+            <input type="Password" id="senha" placeholder="Password" required maxlength="8">
+        </div>
+
+        <div class="textbox">
+            <i class="fa fa-key"></i>
+            <input type="Password" id="senha" placeholder="Password Confirmation" required maxlength="8">
+        </div>
+
+
+        <input class="btn" type="button" value="Atualizar" onclick="atualizar('adm')">
+        <input class="btn" type="button" value="Sair" onclick="sair()" />
+        <div class="msg">
+            <p id="mensagem">Mensagens do Sistema</p>
+        </div>
+    </div>
+    <div class="table1">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">Gerenciar Usuários</th>
+                </tr>
+                <tr>
+                    <th>Id</th>
+                    <th>Login</th>
+                    <th>Tipo</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="bodyUsuarios">
+            </tbody>
+            <tfoot>
+                <tr>
+                    <form>
+                        <td><input type="number" placeholder="Id" id="idUser"></td>
+                        <td><input type="text" placeholder="Login" id="loginUser"></td>
+                        <td><input type="password" placeholder="Password" id="senhaUser"></td>
+                        <td><select id="tipoUser">
+                                <option value="comum">Comum</option>
+                                <option value="adm">Admin</option>
+                            </select>
+                            <div class="botao">
+                                <button class="seta" onclick="criaUsuario()"><i class="fa fa-arrow-right"
+                                        aria-hidden="true"></i></button>
+                            </div>
+                    </form>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="perfiladm.js"></script>
+</body>
+
+</html>

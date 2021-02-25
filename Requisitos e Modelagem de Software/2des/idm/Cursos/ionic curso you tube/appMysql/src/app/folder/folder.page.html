@@ -1,0 +1,55 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <div id="textoHome">
+    <p>Olá, seja bem vindo ao 'CGM' a equipe do app deseja um ótimo dia para vc...</p>
+    <ion-button shape="round" color="Danger">Criar Meta</ion-button>
+  </div>
+
+  <div>
+    <ion-toolbar>
+      <ion-segment value="Gastos">
+        <ion-segment-button value="Gastos">
+          Gastos
+        </ion-segment-button>
+        <ion-segment-button value="Supermecado">
+          Supermecado
+        </ion-segment-button>
+      </ion-segment>
+    </ion-toolbar>
+  </div>
+  <div id="campos">
+    <ion-item>
+      <!-- position="floating"-->
+      <ion-label>Gastos</ion-label>
+      <ion-textarea type="text"></ion-textarea>
+    </ion-item>
+    <ion-item>
+      <ion-label>Descrição</ion-label>
+      <ion-textarea type="text"></ion-textarea>
+    </ion-item>
+    <ion-item>
+      <ion-label>Data</ion-label>
+      <ion-input type="date"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Valor</ion-label>
+      <ion-input type="number"></ion-input>
+    </ion-item>
+  </div>
+  <ion-button class="ajuste" shape="round">
+    <ion-icon name="backspace"></ion-icon>
+  </ion-button>
+  <ion-button class="ajuste" shape="round">
+    <ion-icon name="save"></ion-icon>
+  </ion-button>
+  <p>Você não fica rico com o que ganha fica rico com o que poupa!</p>
+</ion-content>

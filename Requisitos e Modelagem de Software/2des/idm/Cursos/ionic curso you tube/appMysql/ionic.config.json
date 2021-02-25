@@ -1,0 +1,7 @@
+{
+  "name": "appMysql",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

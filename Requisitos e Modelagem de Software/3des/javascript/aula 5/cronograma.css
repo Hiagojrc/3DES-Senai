@@ -1,0 +1,57 @@
+body {
+    background: #000046; 
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+    background: linear-gradient(to right, #1CB5E0, #000046);     
+}
+.ag {
+    border: 1px solid;
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #0f9b0f, #000000); 
+    background: linear-gradient(to right, #0f9b0f, #000000);
+    width: 50%;
+    padding: 3%;
+    margin: 1% 22%;
+    border-radius: 30px;
+}
+p {
+    color: #ccc;   
+    margin: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+label {
+    color: #ccc;   
+    margin: 3%;
+    margin-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    top: 10%;
+    border-radius:10px;
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #0f9b0f, #000000); 
+    background: linear-gradient(to right, #0f9b0f, #000000);
+    
+}
+::placeholder{
+    color: #ccc;
+}
+input[type="text"] {
+    width:45%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    border-radius: 10px;
+
+    background: #000000; 
+    background: -webkit-linear-gradient(to right, #0f9b0f, #000000);
+    background: linear-gradient(to right, #0f9b0f, #000000); 
+}
+button {
+    margin: 0 40%;
+    margin-top: 1%;
+    width: 40%;
+    padding: 6% 0 5% 5%;
+    border-radius: 305px;
+    background: url('./images.jpg');
+    border: none;
+}

@@ -1,0 +1,45 @@
+body {
+    background-color:rgb(208, 229, 247);
+}
+.ag {
+    border: 1px solid;
+    width: 50%;
+    padding: 3%;
+    margin: 1% 22%;
+    border-radius: 30px;
+}
+p {
+    margin: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+label {
+    margin: 8%;
+    margin-left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    top: 10%;
+}
+input[type="text"] {
+    width:45%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    border-radius: 5px;
+}
+input[type="date"] {
+    width:28%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    border-radius: 5px;
+}
+button {
+    font-size: 1.4em;
+    margin: 0 55%;
+    margin-top: 5%;
+    width: 44%;
+    padding: 6%;
+    border-radius: 305px;
+    background: url('./images.jpg');
+    border: none;
+}

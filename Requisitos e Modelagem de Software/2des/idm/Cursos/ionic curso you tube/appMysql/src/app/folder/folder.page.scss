@@ -1,0 +1,79 @@
+ion-menu-button {
+  color: var(--ion-color-primary);
+}
+/*
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8c8c8c;
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+*/
+#textoHome {
+  margin: 0;
+  padding: 2%;
+  width: 100%;
+  height: 20%;
+  background-color: blue;
+}
+#textoHome p {
+  margin: 0;
+  font-size: 1.3em;
+  color: white;
+}
+ion-button {
+  margin: 0 60% 0;
+  --background: blue;
+  font-size: 1em;
+}
+.ajuste{
+  margin: 3px 0 0 0;
+  width: 180px;
+  height: 40px;
+  font-size: 2em;    
+}
+#campos {
+  margin: 0;
+  background-color: white;
+}
+#campos ion-item {
+  margin: 0;
+  background-color: white;
+}
+#campos ion-item ion-label {
+  font-size: 1.3em;
+  color: white;
+  font-weight: 550;
+}
+#campos ion-textarea {
+  font-size: 1.2em;
+  color: rgb(14, 212, 97);
+}
+ion-input {
+  font-size: 1.2em;
+  height: 90px;
+  color: rgb(14, 212, 97);
+}
+p {
+  margin-top: 10px;
+  font-size: 0.8em;
+  color: green;
+}

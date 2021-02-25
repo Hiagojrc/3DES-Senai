@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/perfilcomum.css" />
+    <title>Perfil Comum</title>
+</head>
+
+<body onload="carregaPerfil()">
+    <div class="login-box">
+        <h1>Perfil Comum</h1>
+        <div class="textbox">
+            <i class="fa fa-street-view"></i>
+            <input type="text" id="nome" required maxlength="30" autofocus>
+        </div>
+
+        <div class="mm">
+            <p><i class="fa fa-plus" onclick="addTelefone()"></i></p>
+            <p><i class="fa fa-minus" onclick="delTelefone()"></i></p>
+        </div>
+        <div id="telefones">
+
+        </div>
+
+        <div class="textbox">
+            <i class="fa fa-envelope-o"></i>
+            <input type="text" id="login" required maxlength="30">
+        </div>
+
+        <div class="textbox">
+            <i class="fa fa-key"></i>
+            <input type="password" id="senha" placeholder="Password" required maxlength="8">
+        </div>
+
+        <div class="textbox">
+            <i class="fa fa-key"></i>
+            <input type="Password" id="csenha" placeholder="Password Confirmation" required maxlength="8">
+        </div>
+        <input class="btn" type="button" value="Atualizar" onclick="atualizar('comum')" />
+        <input class="btn" type="button" value="Sair" onclick="sair()" />
+        <div class="msg">
+            <p id="mensagem">Mensagens do Sistema</p>
+        </div>
+    </div>
+    <script src="perfiladm.js"></script>
+</body>
+
+</html>

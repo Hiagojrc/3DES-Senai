@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="titulo">
+      Searchbar
+    </ion-title>
+  </ion-toolbar>
+  <!--Component Searchbar com evento-->
+
+  <ion-searchbar debounce="500" (ionChange)="pesquisar($event)"></ion-searchbar>
+</ion-header>
+
+<ion-content>
+  <!--Criando uma list para ler os carros-->
+  <ion-list *ngFor="let c of carrosFilter">
+    <ion-item>{{c}}</ion-item>
+  </ion-list>
+
+
+
+</ion-content>
+
+<!--https://developer.aliyun.com/mirror/npm/package/custom-ionic-search-bar-->

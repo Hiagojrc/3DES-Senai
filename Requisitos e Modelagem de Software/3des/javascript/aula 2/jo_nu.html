@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="jo_nu.css" />
+    <title>Mega Sena</title>
+</head>
+
+<body>
+    <h1>Mega Sena</h1>
+    <div class="tableForm">
+        <table>
+            <thead>
+                <th>
+                    <label class="label">Número Jogos</label>
+                </th>
+                <th>
+                    <label></label>
+                </th>
+            </thead>
+            <tbody>
+                <tr>
+                    <form>
+                        <td>
+                            <input class="tam" type="text" placeholder="Numeros e jogos" id="numjog" />
+                            <input class="tamtext" type="text" placeholder="numeros" id="num" disabled="" />
+                        </td>
+                        <td>
+                            <input type="submit" value="Adicionar" id="botao" />
+                        </td>
+                    </form>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <div class="tableResult">
+        <table>
+            <tbody id="tableBody">
+            </tbody>
+        </table>
+        <template id="templateLinhas">
+            <tr>
+                <td></td>
+            </tr>
+        </template>
+    </div>
+    <div class="leArquivo">
+        <input type="file" id="abrir" accept=".txt,.csv" />
+        <input type="button" id="salvar" value="Salvar" onclick="salvarArquivo()" />
+    </div>
+
+    <script src="jo_nu.js"></script>
+</body>
+
+</html>
